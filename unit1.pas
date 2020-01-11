@@ -15,8 +15,8 @@ type
     Button2: TButton;
     Label1: TLabel;
     Label2: TLabel;
+    MainMenu1: TMainMenu;
     MenuItem1: TMenuItem;
-    PopupMenu1: TPopupMenu;
     procedure Button2Click(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
   private
@@ -53,7 +53,7 @@ end;
 
 procedure TForm1.MenuItem1Click(Sender: TObject);
 begin
-  ShowMessage('F.TISSEROND 20191120');
+  ShowMessage('F.TISSEROND 2020 11/01/2020');
 end;
 
 end.

@@ -14,6 +14,7 @@ uses
 
 begin
   RequireDerivedFormResource:=True;
+  Application.Title:='TimeStamp';
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
