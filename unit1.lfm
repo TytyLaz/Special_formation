@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 577
+  Height = 192
+  Top = 138
+  Width = 331
+  Caption = 'TimeStamp Value'
+  ClientHeight = 192
+  ClientWidth = 331
+  LCLVersion = '2.0.2.0'
+  object Button2: TButton
+    Left = 96
+    Height = 45
+    Top = 32
+    Width = 139
+    Caption = 'Génération'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 56
+    Height = 16
+    Top = 96
+    Width = 195
+    Caption = 'Timestamp yyyymmddhhnnsszzz'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 88
+    Height = 16
+    Top = 128
+    Width = 127
+    Alignment = taCenter
+    Caption = 'yyyymmddhhnnsszzz'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object PopupMenu1: TPopupMenu
+    left = 18
+    top = 14
+    object MenuItem1: TMenuItem
+      Caption = '?'
+      OnClick = MenuItem1Click
+    end
+  end
+end
